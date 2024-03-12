@@ -465,9 +465,9 @@
     }
     .devpic img {
         height: auto;
-        width: 50%;
-        max-width: 50px;
-        border-radius: 50%;
+        width: 100%;
+        max-width: 200px;
+        border-radius: 20%;
     }
     .b1,
     .b2 {
