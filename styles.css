@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styles for sidebar */
+
+.sidebar {
+    background-color: rgb(214, 205, 205);
+    width: 12vw;
+    font-family: 'Bree Serif', serif;
+    height: 200vh;
+}
+
+
+/* Styles for container */
+
+.container {
+    display: flex;
+}
+
+
+/* Styles for main content area */
+
+.main {
+    /* background-color: yellowgreen; */
+    width: 90vw;
+    height: 150vh;
+}
+
+
+/* Styles for info container */
+
+.infoContainer {
+    /* background-color: aquamarine; */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    /* Adjusted margin */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* Styles for sidebar navigation */
+
+.sidebar nav li {
+    list-style: none;
+    padding: 30px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(88, 82, 82);
+}
+
+.sidebar nav {
+    padding: 32px;
+}
+
+
+/* Styles for developer picture */
+
+.devpic img {
+    height: 57vh;
+    border-radius: 300px;
+    filter: drop-shadow(1px 1px 10px black);
+    box-shadow: 1px 1px 10px black;
+}
+
+
+/* Styles for various text elements */
+
+.infoContainer .hello {
+    font-size: xx-large;
+}
+
+.infoContainer .helloname {
+    font-size: x-large;
+}
+
+.about {
+    font-size: large;
+}
+
+.moreabout {
+    font-size: small;
+}
+
+
+/* Styles for buttons */
+
+.b1,
+.b2 {
+    box-shadow: 1px 1px 10px black;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(20, 18, 18);
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.b1:hover,
+.b2:hover {
+    background-color: rgb(104, 82, 55);
+    color: white;
+}
+
+
+/* Styles for contact form */
+
+.contactform form div {
+    padding: 5px 0px;
+}
+
+.contactform form label {
+    font-weight: bold;
+}
+
+.contactform form {
+    text-align: center;
+}
+
+.contactform h1 {
+    padding-top: 58px;
+    padding: 18px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+.contactform {
+    padding-top: 98px;
+}
+
+#emailHelp {
+    font-size: smaller;
+    color: rgb(58, 58, 209);
+}
+
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Styles for main content */
+
+.main1 {
+    display: flex;
+}
+
+
+/* Styles for social media icons */
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+
+.icon:hover {
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.icon:hover i {
+    color: #fff;
+}
+
+.icon .fa-facebook-f {
+    color: #1A6ED8;
+}
+
+.fb:hover {
+    background: #1A6ED8;
+}
+
+.icon .fa-twitter {
+    color: #1DA1F2;
+}
+
+.twt:hover {
+    background: #511f31;
+}
+
+.icon .fa-linkedin-in {
+    color: #0077B5;
+}
+
+.lnk:hover {
+    background: #0077B5;
+}
+
+.icon .fa-github {
+    color: #000;
+}
+
+.git:hover {
+    background: #000;
+}
+
+.icon .fa-youtube {
+    color: #FE0000;
+}
+
+.yt:hover {
+    background: #FE0000;
+}
+
+
+/* Styles for row */
+
+.row {
+    height: 58vh;
+    width: 80vw;
+    margin: 14px auto;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(214, 205, 205);
+    width: 12vw;
+    font-family: 'Bree Serif', serif;
+    height: 200vh;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    /*background-color: yellowgreen;*/
+    width: 90vw;
+    height: 150vh;
+}
+
+.infoContainer {
+    /*background-color: aquamarine;*/
+    height: 58vh;
+    width: 80vw;
+    MARGIN: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+}
+
+.sidebar nav li {
+    list-style: none;
+    padding: 30px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: rgb(88, 82, 82)
+}
+
+.sidebar nav {
+    padding: 1px;
+}
+
+.devpic img {
+    height: 57vh;
+    border-radius: 300px;
+    filter: drop-shadow(1px 1px 10px black);
+    box-shadow: 1px 1px 10px black;
+}
+
+.infoContainer .hello {
+    font-size: xx-large;
+}
+
+.infoContainer .helloname {
+    font-size: x-large;
+}
+
+.about {
+    font-size: large;
+}
+
+.moreabout {
+    font-size: small;
+}
+
+.b1 {
+    box-shadow: 1px 1px 10px black;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(20, 18, 18);
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.b2 {
+    box-shadow: 1px 1px 10px black;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(20, 18, 18);
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+.b1:hover {
+    background-color: rgb(104, 82, 55);
+    color: white;
+}
+
+.b2:hover {
+    background-color: rgb(104, 82, 55);
+    color: white;
+}
+
+.contactform form div {
+    padding: 5px 0px;
+}
+
+.contactform form label {
+    font-weight: bold;
+}
+
+.contactform form {
+    text-align: center;
+}
+
+.contactform h1 {
+    padding-top: 58px;
+    padding: 18px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
+
+.contactform {
+    padding-top: 98px;
+}
+
+#emailHelp {
+    font-size: smaller;
+    color: rgb(58, 58, 209);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main1 {
+    display: flex;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+
+.icon:hover {
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.icon:hover i {
+    color: #fff;
+}
+
+.icon .fa-facebook-f {
+    color: #1A6ED8;
+}
+
+.fb:hover {
+    background: #1A6ED8;
+}
+
+.icon .fa-twitter {
+    color: #1DA1F2;
+}
+
+.twt:hover {
+    background: #511f31;
+}
+
+.icon .fa-linkedin-in {
+    color: #0077B5;
+}
+
+.lnk:hover {
+    background: #0077B5;
+}
+
+.icon .fa-github {
+    color: #000;
+}
+
+.git:hover {
+    background: #000;
+}
+
+.icon .fa-youtube {
+    color: #FE0000;
+}
+
+.yt:hover {
+    background: #FE0000;
+}
+
+.row {
+    height: 58vh;
+    width: 80vw;
+    MARGIN: 14px auto;
+    display: flex;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* Media query for mobile responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+    }
+    .infoContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .devpic img {
+        height: auto;
+        width: 100%;
+        max-width: 200px;
+        border-radius: 50%;
+    }
+    .b1,
+    .b2 {
+        width: 100%;
+    }
+    .row {
+        margin: 10px auto;
+    }
+}
